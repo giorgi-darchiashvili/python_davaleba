@@ -1,3 +1,9 @@
 monacemi = input("შეიყვანეთ რიცხვი :")
-shetrialeba = ''.join(reversed(monacemi))
+
+shetrialeba = ""
+
+for simbolo in monacemi:
+    shetrialeba = simbolo + shetrialeba
+
+
 print(shetrialeba)
