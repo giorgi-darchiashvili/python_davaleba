@@ -1,5 +1,5 @@
-def diapazoni ():
-    for number in range(num1,num2+1):
+def diapazoni (sacyisi, saboloo):
+    for number in range(sacyisi,saboloo+1):
         if number % 2 == 0:
             print(f"{number}")
 
@@ -8,4 +8,4 @@ num1 = int(input("number one : "))
 
 num2 = int(input("number two : "))
 
-diapazoni()
+diapazoni(num1,num2)
