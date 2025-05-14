@@ -10,7 +10,5 @@ one = 1
 ricxvi = int(input("შეიყვანეთ რიცხვი : "))
 
 
-
-
 shedegi = faqtoriali (one, ricxvi)
 print(f'{shedegi}')
